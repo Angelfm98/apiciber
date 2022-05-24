@@ -1,0 +1,28 @@
+{
+  "name": "apiciber",
+  "version": "1.0.0",
+  "description": "An API for a basic client-server in JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Angelfm98/apiciber.git"
+  },
+  "author": "Angel Franco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Angelfm98/apiciber/issues"
+  },
+  "homepage": "https://github.com/Angelfm98/apiciber#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "morgan": "^1.10.0",
+    "node-fetch": "^2.6.7",
+    "underscore": "^1.13.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
